@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+.btn {
+  padding: 9px 12px;
+  background-color: #fd6e0a;
+  color: white;
+  font-weight: 700;
+  border: 0;
+  border-radius: 4px;
+}
+.hero nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 40px auto;
+}
+.hero nav .logo a {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 30px;
+  color: #181818;
+}
+.hero nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hero nav ul li {
+  list-style: none;
+}
+.hero nav ul li a {
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #181818;
+}
+.hero nav ul li a:hover {
+  color: #fd6e0a;
+}
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left top, bottom right;
+}
+.mainSection .devInfo {
+  margin-left: 190px;
+  width: 500px;
+}
+.mainSection .devInfo p:first-child {
+  font-size: 30px;
+  font-weight: 500;
+}
+.mainSection .devInfo h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.mainSection .devInfo .desc {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.mainSection .devInfo .contact button:nth-child(2) {
+  padding: 9px 12px;
+  background-color: transparent;
+  font-weight: 700;
+  border: 0;
+  border-radius: 4px;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  margin-left: 20px;
+}
+.mainSection .devImage img {
+  margin-bottom: -5px;
+}
+.about {
+  margin: 80px 0px;
+  background-color: #e2bea422;
+  display: flex;
+  justify-content: center;
+}
+.about .desc {
+  width: 60%;
+  margin: 80px 0px;
+  text-align: center;
+}
+.about .desc h2 {
+  font-size: 32px;
+}
+.about .desc p {
+  font-size: 18px;
+  margin: 40px 0px;
+}
+.about .desc .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.about .desc .info p {
+  font-size: 15px;
+}
+.about .desc .info h3 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: -30px;
+}
+.WhatIDo {
+  margin: 50px 0px;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+.WhatIDo .details {
+  width: 60%;
+  margin: auto;
+}
+.WhatIDo .details p {
+  line-height: 26px;
+}
+.WhatIDo .details h1 {
+  margin-bottom: 40px;
+}
+.WhatIDo .skills {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+.WhatIDo .skills .skill {
+  background-color: #f2e9e3;
+  padding: 20px;
+  border-radius: 6px;
+}
+.WhatIDo .skills .skill img {
+  margin: 20px 0px;
+}
+.WhatIDo .skills .skill p:nth-child(2) {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.summary {
+  margin: 100px auto;
+  width: 80%;
+}
+.summary button {
+  margin: 80px auto;
+  text-align: center;
+  display: block;
+}
+.summary h1 {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 32px;
+}
+.summary .experiences {
+  display: flex;
+  gap: 80px;
+}
+.summary .experiences .education h2,
+.summary .experiences .experience h2 {
+  font-size: 26px;
+  color: #3b3b3b;
+}
+.summary .experiences .education div h2:first-child,
+.summary .experiences .experience div h2:first-child {
+  font-size: 18px;
+  margin: 30px 0px 10px;
+}
+.summary .experiences .education div p:nth-child(2),
+.summary .experiences .experience div p:nth-child(2) {
+  font-size: 15px;
+  color: #595959;
+  margin-bottom: 10px;
+}
+.summary .experiences .education div p:nth-child(3),
+.summary .experiences .experience div p:nth-child(3) {
+  font-size: 13px;
+  color: #454545;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #e2bea422;
+}
+footer .mainContent {
+  width: 80%;
+  margin: auto;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+footer .mainContent .letsConnect h2,
+footer .mainContent .message h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+footer .mainContent .letsConnect p {
+  font-size: 15px;
+  width: 70%;
+  margin-bottom: 40px;
+}
+footer .mainContent .letsConnect .social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .mainContent .message form input[type="text"],
+footer .mainContent .message form input[type="email"] {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+footer .mainContent .message form .messageBox {
+  border: none;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+footer .mainContent .message form input[type="submit"] {
+  padding: 9px 12px;
+  background-color: #fd6e0a;
+  color: white;
+  font-weight: 700;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 20px;
+}
